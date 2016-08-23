@@ -1,3 +1,3 @@
 # C169Project
 
-Java project for school class
+Java project for class
