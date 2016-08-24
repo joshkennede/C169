@@ -1,8 +1,12 @@
 package com.studentroster;
 
-/**
- * Created by joshkennede on 8/22/16.
- */
+/* * Created by joshkennede on 8/22/16.
+ * IntelliJ IDEA 2016.2.1
+ * Build #IC-162.1447.26, built on August 2, 2016
+ * JRE: 1.8.0_76-release-b216 x86_64
+ * JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+ * */
+
 public class Student {
 
     //Student class which includes: student ID, first name, last name, e-mail address, age, and array of grades.
