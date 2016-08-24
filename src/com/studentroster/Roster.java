@@ -37,11 +37,12 @@ public class Roster {
             Roster.add(studentId, firstName, lastName, email, age, grade1, grade2, grade3);
         }
 
-        Roster.print_all();
-        Roster.print_invalid_emails();
-        Roster.print_average_grade("1");
-        Roster.remove("3");
-        Roster.remove("3");
+        //method calls for wgu project requirements
+        Roster.print_all(); //prints all students + info
+        Roster.print_invalid_emails(); //prints invalid email(s)
+        Roster.print_average_grade("5"); //optional method call - prints my average grade
+        Roster.remove("3"); //prints the result of removing the third student in the Array
+        Roster.remove("3"); //prints the confirmation that the third student has been removed
     }
 
     public static void add(String studentId, String firstName, String lastName, String email, int age, int grade1, int grade2, int grade3)
@@ -49,6 +50,7 @@ public class Roster {
         Student student = new Student(studentId, firstName, lastName, email, age, grade1, grade2, grade3);
         students.add(student);
     }
+
     //method for removing a student from the roster
     public static void remove(String studentId)
     {
@@ -63,6 +65,7 @@ public class Roster {
         }
         System.out.println("Error: Student ID " + studentId + " can not be found.");
     }
+
     //method for printing the entire student arrayList
     public static void print_all()
     {
@@ -71,6 +74,7 @@ public class Roster {
             student.print();
         }
     }
+
     //method for printing invalid emails
     public static void print_invalid_emails()
     {
@@ -84,6 +88,7 @@ public class Roster {
             }
         }
     }
+
     //method for printing the average grade of a given student
     public static void print_average_grade(String studentId)
     {
