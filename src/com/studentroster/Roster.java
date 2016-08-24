@@ -94,8 +94,8 @@ public class Roster {
     {
         for (Student student : students) {
             if (student.getStudentId().equals(studentId)) {
-                double totalGrades = student.getGrade1() + student.getGrade2() + student.getGrade3();
-                double gradeAverage = totalGrades / 3;
+                int totalGrades = student.getGrade1() + student.getGrade2() + student.getGrade3();
+                int gradeAverage = totalGrades / 3;
 
                 System.out.println("Student " + studentId + "'s average grade overall is " + gradeAverage);
             }
