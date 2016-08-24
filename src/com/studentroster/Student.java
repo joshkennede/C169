@@ -113,7 +113,6 @@ public class Student {
     //method for printing all student data
     public void print()
     {
-        String tab = "   ";
         String studentId = getStudentId();
         String firstName = getFirstName();
         String lastName = getLastName();
@@ -123,8 +122,8 @@ public class Student {
         int grade2 = getGrade2();
         int grade3 = getGrade3();
 
-        System.out.println("Student ID: " +studentId+tab+ " Firstname: " +firstName+tab+ " Lastname: "
-                +lastName+tab+ " Email: " +email+tab+ " Age: " +age+tab+ " Grades: " +tab+ "{"+grade1+ ","
+        System.out.println("Student ID: " +studentId+ "\t Firstname: " +firstName+ "\t Lastname: "
+                +lastName+ "\t Email: " +email+ "\t Age: " +age+ "\t Grades: " + "\t{"+grade1+ ","
                 +grade2+ "," +grade3+ "}");
     }
 }
