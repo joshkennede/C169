@@ -37,9 +37,9 @@ public class Roster {
             Roster.add(studentId, firstName, lastName, email, age, grade1, grade2, grade3);
         }
 
-        Roster.print_all();
-        Roster.print_invalid_emails();
-        Roster.print_average_grade("1");
+        Roster.printAll();
+        Roster.printInvalidEmails();
+        Roster.printAverageGrade("1");
         Roster.remove("3");
         Roster.remove("3");
     }
@@ -64,7 +64,7 @@ public class Roster {
         System.out.println("Error: Student ID " + studentId + " can not be found.");
     }
     //method for printing the entire student arrayList
-    public static void print_all()
+    public static void printAll()
     {
         for (Student student : students)
         {
@@ -72,7 +72,7 @@ public class Roster {
         }
     }
     //method for printing invalid emails
-    public static void print_invalid_emails()
+    public static void printInvalidEmails()
     {
         String invalidEmail = "Invalid email address: ";
         for(Student Student : students)
@@ -85,7 +85,7 @@ public class Roster {
         }
     }
     //method for printing the average grade of a given student
-    public static void print_average_grade(String studentId)
+    public static void printAverageGrade(String studentId)
     {
         for (Student student : students) {
             if (student.getStudentId().equals(studentId)) {
