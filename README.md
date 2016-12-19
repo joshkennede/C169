@@ -1,3 +1,3 @@
 # C169Project
 
-Java project for class
+Scripting and Programming - Applications Written in Java
