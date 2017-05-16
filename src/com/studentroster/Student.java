@@ -1,8 +1,12 @@
 package com.studentroster;
 
-/**
- * Created by joshkennede on 8/22/16.
- */
+/* * Created by joshkennede on 8/22/16.
+ * IntelliJ IDEA 2016.2.1
+ * Build #IC-162.1447.26, built on August 2, 2016
+ * JRE: 1.8.0_76-release-b216 x86_64
+ * JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+ * */
+
 public class Student {
 
     //Student class which includes: student ID, first name, last name, e-mail address, age, and array of grades.
@@ -113,7 +117,6 @@ public class Student {
     //method for printing all student data
     public void print()
     {
-        String tab = "   ";
         String studentId = getStudentId();
         String firstName = getFirstName();
         String lastName = getLastName();
@@ -123,8 +126,8 @@ public class Student {
         int grade2 = getGrade2();
         int grade3 = getGrade3();
 
-        System.out.println("Student ID: " +studentId+tab+ " Firstname: " +firstName+tab+ " Lastname: "
-                +lastName+tab+ " Email: " +email+tab+ " Age: " +age+tab+ " Grades: " +tab+ "{"+grade1+ ","
+        System.out.println("Student ID: " +studentId+ "\t Firstname: " +firstName+ "\t Lastname: "
+                +lastName+ "\t Email: " +email+ "\t Age: " +age+ "\t Grades: " + "\t{"+grade1+ ","
                 +grade2+ "," +grade3+ "}");
     }
 }
